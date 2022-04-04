@@ -739,21 +739,21 @@ a.btn,
 }
 
 .contacts__radio:checked+.contacts__radio-text::before {
-    background-image: url(../picture/contacts/__form/radio-checked.svg);
+    background-image: url(../picture/contacts/form/radio-checked.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .contacts__radio:not(:checked):not(:disabled)+.contacts__radio-text:hover::before,
 .contacts__radio:not(:checked):not(:disabled)+.contacts__radio-text:focus::before {
-    background-image: url(../picture/contacts/__form/radio-focus.svg);
+    background-image: url(../picture/contacts/form/radio-focus.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .contacts__radio:checked:disabled+.contacts__radio-text::before {
     border-color: #E1E1E4;
-    background-image: url(../picture/contacts/__form/radio-disabled.svg);
+    background-image: url(../picture/contacts/form/radio-disabled.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -796,7 +796,7 @@ a.btn,
 
 .contacts__chb:checked+.contacts__chb-text::before {
     border-color: #6F75E5;
-    background-image: url(../picture/contacts/__form/chb-checked.svg);
+    background-image: url(../picture/contacts/form/chb-checked.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
