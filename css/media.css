@@ -1,0 +1,318 @@
+@media (max-width: 1100px) {
+    .header .header__bottom-img {
+        margin: 180px auto 0;
+    }
+    .contacts .contacts__content {
+        justify-content: center;
+    }
+    .contacts .contacts__title {
+        display: block;
+    }
+    .contacts__form-title {
+        display: none;
+    }
+    .contacts__form {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header .header__inner-title {
+        margin-top: 100px;
+    }
+    .header .header__bottom-img {
+        display: none;
+    }
+    .header .header__mobile-img {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 70px;
+        width: 235px;
+        height: 324px;
+    }
+    .header .header__nav {
+        padding-left: 100px;
+    }
+    .cryptocurrency .cryptocurrency__grid {
+        grid-template-columns: repeat(auto-fit, 200px);
+        justify-content: center;
+    }
+    .cryptocurrency .cryptocurrency__block-content {
+        display: block;
+    }
+    .blog .blog__content {
+        display: none;
+    }
+    .location .location__content {
+        flex-wrap: wrap;
+    }
+    .location .location__title {
+        text-align: left;
+    }
+    .contacts .contacts__authors {
+        flex-wrap: wrap;
+    }
+    .contacts .contacts__text {
+        text-align: center;
+    }
+    .buy .buy__img {
+        width: 358px;
+        height: 227px;
+        bottom: 50px;
+        background-image: url(../picture/buy/mobile-cat.svg);
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 1025px) {
+    .blog .blog__slider-wrapper {
+        display: none;
+    }
+}
+
+@media(min-width:769px) {
+    .blog__mobile-btn,
+    .footer__mobile-menu {
+        display: none;
+    }
+}
+
+@media(max-width:768px) {
+    body .btn {
+        font-size: 16px;
+    }
+    /*        header       */
+    .header .header__nav {
+        display: none;
+    }
+    .header .header__mobile-btn {
+        display: block;
+    }
+    .header .header__inner {
+        padding-bottom: 316px;
+        margin: 0 auto;
+    }
+    .header .header__inner-rate-img {
+        margin-right: 0;
+    }
+    .header .header__stars {
+        display: none;
+    }
+    .header .header__inner-textblock {
+        max-width: 299px;
+        margin-bottom: 24px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 0;
+    }
+    .header .header__inner-title {
+        font-size: 34px;
+        line-height: 44px;
+    }
+    .header .header__inner-text {
+        max-width: 299px;
+    }
+    .header .header__inner-rate {
+        max-width: 299px;
+        justify-content: space-between;
+    }
+    .header .header__mobile-img {
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    .header .header__singup-btn {
+        display: none;
+    }
+    .header .header__login-btn {
+        background-color: #3139CE;
+        min-width: 98px;
+        height: 44px;
+        border: none;
+        margin-right: 0;
+    }
+    /*        cryptocurrency        */
+    body .cryptocurrency {
+        padding-top: 70px;
+    }
+    .cryptocurrency .cryptocurrency__title {
+        font-size: 28px;
+        line-height: 36px;
+        margin-bottom: 24px;
+    }
+    .cryptocurrency .cryptocurrency__text {
+        font-size: 14px;
+        line-height: 140%;
+    }
+    .cryptocurrency .cryptocurrency__grid {
+        margin-top: 24px;
+    }
+    /*        blog        */
+    body .blog {
+        padding-top: 46px;
+    }
+    .blog .blog__head-title {
+        font-size: 28px;
+        line-height: 36px;
+        text-align: left;
+    }
+    .blog .blog__head-btn {
+        display: none;
+    }
+    .blog .blog__mobile-btn {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 27px;
+        min-width: 244px;
+    }
+    /*        location        */
+    .location .location__title {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .location .location__place-title {
+        font-size: 16px;
+    }
+    .location .location__text {
+        font-size: 13px;
+        line-height: 127.5%;
+    }
+    /*        contacts        */
+    .contacts .contacts__title {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .contacts__form .contacts__form-btn {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contacts .contacts__select {
+        width: 100%;
+    }
+    .contacts .contacts__radio-list {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .contacts .contacts__radio-text {
+        margin-left: 34px;
+        margin-right: 30px;
+    }
+    .contacts .contacts__mobile-btn {
+        text-align: center;
+        min-width: 244px;
+    }
+    /*        questions        */
+    .questions .questions__title {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .questions .questions__btn {
+        height: 76px;
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .questions .questions__btn_opened {
+        height: auto;
+    }
+    .questions .questions__btn-text {
+        padding: 19px 16px;
+    }
+    .questions .questions__btn-text_opened {
+        padding: 0 16px 20px;
+    }
+    /*        buy         */
+    .buy .container {
+        padding: 0;
+    }
+    .buy .buy__content {
+        border-radius: 0;
+        min-height: 391px;
+    }
+    .buy .buy__textblock {
+        margin-top: 24px;
+        margin-left: 24px;
+    }
+    .buy .buy__title {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .buy .buy__btn {
+        position: absolute;
+        bottom: 24px;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    /*        footer        */
+    .footer .footer__support {
+        display: none;
+    }
+    .footer .footer__select {
+        display: none;
+    }
+    .footer .mobile-sup {
+        display: block;
+    }
+    .footer .mobile-select {
+        display: block;
+    }
+    .footer .blog__author {
+        margin-top: 20px;
+        border: none;
+        margin-bottom: 20px;
+    }
+    .footer .blog__author-name {
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+    .footer .blog__author-job {
+        text-align: left;
+    }
+    .footer .footer__contacts-text {
+        margin-left: 30px;
+    }
+    .footer .number img {
+        left: 0;
+    }
+    .footer .footer__top-content {
+        text-align: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0 40px;
+    }
+    .footer .footer__list {
+        justify-content: space-between;
+    }
+}
+
+@media (min-width:671px) {
+    .cryptocurrency .cryptocurrency__mobile-btn {
+        display: none;
+    }
+}
+
+@media (max-width:670px) {
+    .cryptocurrency .cryptocurrency__block_hidden {
+        display: none;
+    }
+    .cryptocurrency .cryptocurrency__mobile-btn {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 278px;
+        margin-top: 44px;
+    }
+    .cryptocurrency .cryptocurrency__mobile-btn img {
+        padding-left: 10px;
+        padding-top: 6px;
+    }
+}
+
+@media (max-width:414px) {
+    .footer .footer__list li {
+        margin: 0;
+    }
+    .cryptocurrency .cryptocurrency__grid {
+        grid-template-columns: repeat(auto-fit, 150px);
+    }
+}
