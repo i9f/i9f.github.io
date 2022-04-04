@@ -237,6 +237,9 @@
         font-size: 28px;
         line-height: 36px;
     }
+    .buy .buy__text {
+        padding-right: 37px;
+    }
     .buy .buy__btn {
         position: absolute;
         bottom: 24px;

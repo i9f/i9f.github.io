@@ -968,13 +968,19 @@ a.btn,
     margin: 0 122px;
 }
 
+.footer__support {
+    margin-top: 30px;
+}
+
 .footer__title {
     font-weight: 500;
     font-size: 18px;
     line-height: 120%;
     color: #E6E6E6;
-    margin-bottom: 20px;
-    padding-top: 40px;
+}
+
+.footer__write {
+    margin-top: 20px;
 }
 
 .footer__follow-icon img {
