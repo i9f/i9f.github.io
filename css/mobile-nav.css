@@ -66,11 +66,10 @@
 
 .header__mobile-nav {
     display: flex;
+    display: none;
     position: fixed;
     flex-direction: column;
     align-items: center;
-    visibility: hidden;
-    opacity: 0;
     transition: .5s;
     z-index: 99;
     top: 0;
@@ -81,15 +80,15 @@
 }
 
 .header__mobile-nav.active {
-    visibility: visible;
-    opacity: 1;
+    display: block;
 }
 
 .header__mobile-list {
     position: absolute;
     text-align: center;
     top: 50%;
-    transform: translate(0, -50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .header__mobile-list li+li {
