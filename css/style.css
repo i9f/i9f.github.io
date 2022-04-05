@@ -28,7 +28,6 @@ a:hover {
     text-decoration: none;
 }
 
-a:focus,
 a:active {
     outline: none;
 }
@@ -75,6 +74,10 @@ svg {
     overflow: hidden;
 }
 
+button {
+    cursor: pointer;
+}
+
 body,
 ul {
     font-family: 'IBM Plex Sans';
@@ -87,8 +90,8 @@ ul {
 
 .container {
     margin: 0 auto;
-    max-width: 1340px;
-    padding: 0 35px;
+    max-width: 1310px;
+    padding: 0 15px;
 }
 
 .container-small {
@@ -109,7 +112,8 @@ a.btn,
     outline: none;
 }
 
-.btn:not(:disabled):focus {
+.btn:not(:disabled):focus,
+.btn:not(:disabled):hover {
     background: #6F75E5;
     color: #FFFFFF;
 }
@@ -204,7 +208,7 @@ a.btn,
     padding-bottom: 124px;
 }
 
-.header__inner-title {
+.header__title {
     margin-top: 204px;
     max-height: 124px;
     max-width: 392px;
@@ -215,7 +219,7 @@ a.btn,
     margin-bottom: 20px;
 }
 
-.header__inner-text {
+.header__text {
     width: 464px;
     height: 44px;
     line-height: 140%;
@@ -223,7 +227,7 @@ a.btn,
     margin-bottom: 60px;
 }
 
-.header__inner-rate {
+.header__rate {
     display: flex;
 }
 
@@ -244,7 +248,7 @@ a.btn,
     color: #F6F6F6
 }
 
-.header__inner-rate-img {
+.header__img {
     display: flex;
     flex-direction: column;
     margin-right: 30px;
@@ -284,7 +288,7 @@ a.btn,
 
 .cryptocurrency__grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 300px);
+    grid-template-columns: repeat(4, 1fr);
     margin-top: 48px;
 }
 
@@ -299,14 +303,15 @@ a.btn,
     display: flex;
 }
 
-.cryptocurrency__block:hover:not(:last-child) {
+.cryptocurrency__block:hover:not(:last-child),
+.cryptocurrency__block:focus:not(:last-child) {
     height: 61px;
     background: #F7F7F7;
     border-radius: 12px;
     cursor: pointer;
 }
 
-.cryptocurrency__block-last {
+.cryptocurrency__btn {
     min-width: 159px;
     min-height: 37px;
     margin-left: 15px;
@@ -316,10 +321,15 @@ a.btn,
     font-size: 16px;
     line-height: 130%;
     color: #545462;
+    background-color: transparent;
     position: relative;
 }
 
-.cryptocurrency__block-last p {
+.cryptocurrency__btn:focus {
+    border-color: rebeccapurple;
+}
+
+.cryptocurrency__btn p {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -801,7 +811,8 @@ a.btn,
     background-position: center;
 }
 
-.contacts__chb:not(:disabled)+.contacts__chb-text:hover::before {
+.contacts__chb:not(:disabled)+.contacts__chb-text:hover::before,
+.contacts__chb:not(:disabled)+.contacts__chb-text:focus::before {
     border-color: #6F75E5;
 }
 

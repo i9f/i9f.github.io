@@ -16,15 +16,11 @@
     }
 }
 
-@media (max-width: 1024px) {
-    .header .header__inner-title {
+@media (max-width: 1000px) {
+    .header .header__title {
         margin-top: 100px;
     }
     .header .header__bottom-img {
-        display: none;
-    }
-    .header .header__mobile-img {
-        display: block;
         position: absolute;
         bottom: 0;
         right: 70px;
@@ -35,11 +31,7 @@
         padding-left: 100px;
     }
     .cryptocurrency .cryptocurrency__grid {
-        grid-template-columns: repeat(auto-fit, 200px);
-        justify-content: center;
-    }
-    .cryptocurrency .cryptocurrency__block-content {
-        display: block;
+        grid-template-columns: repeat(3, 1fr);
     }
     .blog .blog__content {
         display: none;
@@ -65,7 +57,7 @@
     }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1001px) {
     .blog .blog__slider-wrapper {
         display: none;
     }
@@ -93,27 +85,27 @@
         padding-bottom: 316px;
         margin: 0 auto;
     }
-    .header .header__inner-rate-img {
+    .header .header__img {
         margin-right: 0;
     }
     .header .header__stars {
         display: none;
     }
-    .header .header__inner-textblock {
+    .header .header__textblock {
         max-width: 299px;
         margin-bottom: 24px;
         text-align: center;
         color: #FFFFFF;
         padding: 0;
     }
-    .header .header__inner-title {
+    .header .header__title {
         font-size: 34px;
         line-height: 44px;
     }
-    .header .header__inner-text {
+    .header .header__text {
         max-width: 299px;
     }
-    .header .header__inner-rate {
+    .header .header__rate {
         max-width: 299px;
         justify-content: space-between;
     }
@@ -309,13 +301,16 @@
         padding-left: 10px;
         padding-top: 6px;
     }
+    .cryptocurrency .cryptocurrency__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width:414px) {
     .footer .footer__list li {
         margin: 0;
     }
-    .cryptocurrency .cryptocurrency__grid {
-        grid-template-columns: repeat(auto-fit, 150px);
+    .cryptocurrency .cryptocurrency__block-content {
+        display: block;
     }
 }

@@ -42,10 +42,10 @@
     font-size: 16px;
 }
 
-.blog__slide .blog__link:active,
-.blog__slide .blog__link:disabled {
+.blog__slide .blog__link:visited,
+.blog__slide .blog__link:active {
     color: #6F75E5;
-    text-decoration-line: underline;
+    text-decoration: underline;
 }
 
 .blog__slide .blog__link-img {
@@ -57,7 +57,7 @@
 }
 
 .blog__link:active .blog__link-img,
-.blog__link:disabled .blog__link-img {
+.blog__link:visited .blog__link-img {
     background-image: url(/picture/blog/slider/visited-arrow.svg);
 }
 
