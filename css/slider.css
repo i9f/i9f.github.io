@@ -32,15 +32,33 @@
     text-align: left;
 }
 
-.blog__slide .blog__slider-link {
+.blog__slide .blog__link {
     display: flex;
     margin-top: 20px;
     color: #3139CE;
     margin-bottom: 49px;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 16px;
 }
 
-.blog__slide .blog__slider-link img {
-    padding-left: 10px;
+.blog__slide .blog__link:active,
+.blog__slide .blog__link:disabled {
+    color: #6F75E5;
+    text-decoration-line: underline;
+}
+
+.blog__slide .blog__link-img {
+    background-image: url(/picture/blog/slider/arrow.svg);
+    height: 13px;
+    width: 8px;
+    background-repeat: no-repeat;
+    margin: auto 0px auto 14px;
+}
+
+.blog__link:active .blog__link-img,
+.blog__link:disabled .blog__link-img {
+    background-image: url(/picture/blog/slider/visited-arrow.svg);
 }
 
 .blog__slider {
