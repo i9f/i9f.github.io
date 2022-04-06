@@ -6,6 +6,11 @@
     margin-right: 20px;
 }
 
+.blog__slide .blog__author-icon {
+    max-height: 38px;
+    max-width: 38px;
+}
+
 .blog__slide .blog__author {
     border: none;
 }
