@@ -623,6 +623,54 @@ a.btn,
     margin-top: 67px;
 }
 
+.contacts__author-contact {
+    position: absolute;
+    text-align: center;
+    width: 84px;
+    height: 35px;
+    border-radius: 8px;
+    background: rgba(72, 72, 72, 0.5);
+    backdrop-filter: blur(4px);
+}
+
+.contacts__first {
+    top: 165px;
+    left: 16px;
+}
+
+.contacts__second {
+    display: none;
+}
+
+.contacts__telegram {
+    margin-top: 9px;
+    margin-right: 9px;
+    width: 20px;
+    height: 20px;
+    background-image: url(../picture/contacts/author-contact/telegram.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.contacts__telegram:hover {
+    background-image: url(../picture/contacts/author-contact/telegram-hover.svg);
+    background-repeat: no-repeat;
+}
+
+.contacts__email {
+    margin-top: 9px;
+    width: 20px;
+    height: 20px;
+    background-image: url(../picture/contacts/author-contact/email.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.contacts__email:hover {
+    background-image: url(../picture/contacts/author-contact/email-hover.svg);
+    background-repeat: no-repeat;
+}
+
 .contacts__img {
     position: absolute;
     width: 216px;

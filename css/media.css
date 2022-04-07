@@ -291,6 +291,31 @@
         height: 244px;
         width: 244px;
     }
+    .contacts .contacts__author-contact {
+        width: 154px;
+        height: 44px;
+    }
+    .contacts .contacts__telegram {
+        width: 22px;
+        height: 22px;
+        margin-top: 13px;
+        margin-right: 55px;
+    }
+    .contacts .contacts__email {
+        width: 22px;
+        height: 22px;
+        margin-top: 13px;
+    }
+    .contacts .contacts__first {
+        top: 184px;
+        left: 16px;
+    }
+    .contacts .contacts__second {
+        display: block;
+        z-index: 1;
+        top: 314px;
+        left: 114px;
+    }
     .contacts .contacts__profile-first {
         padding-top: 150px;
         padding-left: 55px;
