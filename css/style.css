@@ -975,7 +975,7 @@ a.btn,
 .buy__img {
     position: absolute;
     max-height: 360px;
-    max-width: 698px;
+    width: 698px;
     right: 0;
     bottom: -30px;
     background-repeat: no-repeat;
@@ -1102,15 +1102,6 @@ a.btn,
     color: #A8A8AA;
 }
 
-.footer__copy a {
-    color: #fff;
-}
-
-font-size: 12px;
-line-height: 22px;
-color: #A8A8AA;
-
-}
 .footer__copy a {
     color: #fff;
 }
