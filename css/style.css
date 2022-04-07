@@ -70,6 +70,10 @@ svg {
 
 /* base */
 
+a:focus {
+    border-bottom: 1px solid;
+}
+
 .hidden {
     overflow: hidden;
 }
