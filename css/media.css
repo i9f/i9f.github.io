@@ -312,6 +312,7 @@
     }
     .contacts .contacts__second {
         display: block;
+        display: flex;
         z-index: 1;
         top: 314px;
         left: 114px;
