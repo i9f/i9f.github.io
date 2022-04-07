@@ -625,6 +625,8 @@ a.btn,
 
 .contacts__author-contact {
     position: absolute;
+    display: flex;
+    justify-content: center;
     text-align: center;
     width: 84px;
     height: 35px;
