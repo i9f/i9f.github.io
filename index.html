@@ -16,8 +16,8 @@
             <div class="header__top">
                 <div class="header__menu">
                     <button type="button" class="header__mobile-btn">
-                    <span class="header__mobile-icon"></span>
-                </button>
+                        <span class="header__mobile-icon"></span>
+                    </button>
                     <div class="header__logo">
                         <img src="/picture/header/top/logo.svg" alt="website logo">
                     </div>
@@ -36,8 +36,8 @@
                     </nav>
                 </div>
                 <div class="header__login">
-                    <button type="button" class="header__login-btn">Log In</button>
-                    <button type="button" class="btn header__singup-btn">Sing Up</button>
+                    <button type="button" class="btn header__login-btn">Log In</button>
+                    <button type="button" class="btn header__signup-btn">Sign Up</button>
                 </div>
             </div>
             <div class="header__bottom">
@@ -290,7 +290,7 @@
                                     <p>Lacerat tristique orci ornare tortor diam. Vitae faucibus sed odio fringilla facilis...</p>
                                 </div>
                             </div>
-                            <div class="blog__author">
+                            <div class="blog__author blog__other-author">
                                 <div class="blog__author-icon"><img src="/picture/blog/authors/daniel-frost.svg" alt="author photo"></div>
                                 <div class="blog__author-profile">
                                     <p class="blog__author-name">Daniel Frost</p>
@@ -311,7 +311,7 @@
                                     <p>Lacerat tristique orci ornare tortor diam. Vitae faucibus sed odio fringilla facilisis</p>
                                 </div>
                             </div>
-                            <div class="blog__author">
+                            <div class="blog__author blog__other-author">
                                 <div class="blog__author-icon"><img src="/picture/blog/authors/mark-thompson.svg" alt="author photo"></div>
                                 <div class="blog__author-profile">
                                     <p class="blog__author-name">Mark Thompson</p>
@@ -332,7 +332,7 @@
                                     <p>Lacerat tristique orci ornare tortor diam. Vitae faucibus sed odio fringilla facilisis</p>
                                 </div>
                             </div>
-                            <div class="blog__author">
+                            <div class="blog__author blog__other-author">
                                 <div class="blog__author-icon"><img src="/picture/blog/authors/daniel-frost.svg" alt="author photo"></div>
                                 <div class="blog__author-profile">
                                     <p class="blog__author-name">Daniel Frost</p>
@@ -487,17 +487,17 @@
                         <h2 class="contacts__form-title">Contact us</h2>
                         <p class="contacts__text">Use this form to reach out to us</p>
                         <form>
-                            <ul class="contacts__list">
-                                <li class="contacts__item">
+                            <div class="contacts__list">
+                                <div class="contacts__item">
                                     <label class="contacts__label" for="email">Email</label>
                                     <input class="contacts__input" type="email" id="email" name="user_email" placeholder="nick@example.com" required>
-                                </li>
-                                <li class="contacts__item">
+                                </div>
+                                <div class="contacts__item">
                                     <label class="contacts__label" for="tel">Phone</label>
                                     <input class="contacts__input" type="tel" id="tel" name="user_telephone" placeholder="+44 (000) 000-0000" required>
-                                </li>
-                                <li class="contacts__item">
-                                    <label class="contacts__label" for="select">Country</label>
+                                </div>
+                                <div class="contacts__item">
+                                    <label class="contacts__label" for="select">Country</label> <br>
                                     <select class="contacts__select" name="select" id="select">
                                             <option value="UK" selected>United Kingdom</option>
                                             <option value="Russia">Russia</option>
@@ -508,20 +508,21 @@
                                         <input class="contacts__radio" type="radio" id="woman" name="gender">
                                         <label class="contacts__radio-text" for="woman">Woman</label>
                                     </div>
-                                </li>
-                                <li class="contacts__item">
-                                    <textarea class="contacts__input contacts__textarea" id="msg" name="user_message" placeholder="Enter your message here" maxlength="140" style="padding-top: 11px;" required></textarea>
-                                </li>
-                                <li class="contacts__item">
+                                </div>
+                                <div class="contacts__item">
+                                    <label class="contacts__label" for="msg">Message</label>
+                                    <textarea class="contacts__input contacts__textarea" id="msg" name="user_message" placeholder="Enter your message here" maxlength="140" required></textarea>
+                                </div>
+                                <div class="contacts__item">
                                     <div class="contacts__chb-position">
                                         <input class="contacts__chb" type="checkbox" id="checkbox">
                                         <label class="contacts__chb-text" for="checkbox">By clicking on the button, you consent to the processing <a href="#">of data processing</a> and compiled with <a href="#">confidentiality documents</a></label>
                                     </div>
-                                </li>
-                                <li class="contacts__item contacts__mobile-btn">
+                                </div>
+                                <div class="contacts__item contacts__mobile-btn">
                                     <button type="submit" class="btn btn-wide contacts__form-btn">Send message</button>
-                                </li>
-                            </ul>
+                                </div>
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -568,7 +569,7 @@
                             <div class="questions__btn-text_opened">Digital currencies made a lot of buzz in the past 10 years. In addition to a vast amount of terminology (cryptocurrency, blockchain, validation, etc.), hundreds of coins have appeared. But despite the significant figures for
                                 market cap, the actual impact on the economy has not yet been felt. Digital currencies made a lot of buzz in the past 10 years. In addition to a vast amount of terminology (cryptocurrency, blockchain, validation, etc.),
                                 hundreds of coins have appeared. But despite the significant figures for market cap, the actual impact on the economy has not yet been felt. Digital currencies made a lot of buzz in the past 10 years. In addition to a vast
-                                amount of terminology for market (cryptocurrency, blockchain, validation, etc.), hundreds of coins have appeared. But despite the significant figures for market cap, the actual impact on.
+                                amount of terminology (cryptocurrency, blockchain, validation, etc.), hundreds of coins have appeared. But despite the significant figures for market cap, the actual impact on.
                             </div>
                         </div>
                         <div class="questions__btn">

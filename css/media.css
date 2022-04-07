@@ -8,15 +8,21 @@
     .contacts .contacts__title {
         display: block;
     }
+    .contacts .contacts__authors {
+        margin-right: 20px;
+    }
     .contacts__form-title {
         display: none;
+    }
+    .contacts .contacts__select {
+        width: 100%;
     }
     .contacts__form {
         margin-top: 50px;
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
     .header .header__title {
         margin-top: 100px;
     }
@@ -178,9 +184,6 @@
     .contacts__form .contacts__form-btn {
         margin-left: auto;
         margin-right: auto;
-    }
-    .contacts .contacts__select {
-        width: 100%;
     }
     .contacts .contacts__radio-list {
         margin-top: 20px;
