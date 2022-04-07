@@ -1,5 +1,5 @@
 .blog__slider-wrapper {
-    margin: 32px auto 0;
+    margin: 17px auto 0;
 }
 
 .blog__slide:not(:last-child) {
@@ -13,6 +13,7 @@
 
 .blog__slide .blog__author {
     border: none;
+    margin-top: 13px;
 }
 
 .blog__slide .blog__author-name {
@@ -26,7 +27,7 @@
 .blog__slide .blog__img-data {
     font-size: 12px;
     line-height: 130%;
-    color: rgba(250, 250, 250, 0.8);
+    color: #fafafacc;
 }
 
 .blog__slide .blog__img-text {
@@ -39,12 +40,12 @@
 
 .blog__slide .blog__link {
     display: flex;
-    margin-top: 20px;
-    color: #3139CE;
-    margin-bottom: 49px;
-    background-color: transparent;
     font-weight: 500;
     font-size: 16px;
+    margin-top: 11px;
+    margin-bottom: 46px;
+    color: #3139CE;
+    background-color: transparent;
 }
 
 .blog__slide .blog__link:visited,
