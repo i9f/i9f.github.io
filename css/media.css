@@ -103,9 +103,11 @@
 
 @media(min-width:769px) {
     .blog__mobile-btn,
-    .footer__mobile-menu,
-    .location__map-pin {
+    .footer__mobile-menu {
         display: none;
+    }
+    .location .location__map-pin {
+        display: block;
     }
 }
 
@@ -235,6 +237,9 @@
     body .location {
         margin-top: 50px;
         padding: 0px 8px;
+    }
+    .location .location__map-pin {
+        display: none;
     }
     .location .location__content {
         flex-wrap: wrap;
